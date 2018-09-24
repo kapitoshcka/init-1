@@ -1,0 +1,4 @@
+#Name the command that lists the partition tables of drives?
+#fdisk partition maintenance program
+
+fdisk -l

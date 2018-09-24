@@ -1,0 +1,6 @@
+#This command is Identify and display the Ethernet interface characteristics
+#getifaddr -prints to standard output the IP address for the first network service 
+#associated with the given interface.
+#en0 interface name (wired)
+
+ifconfig en0

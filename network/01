@@ -1,0 +1,4 @@
+#Get the list of the network interfaces without displaying any detail.
+#Only the list of names
+
+ifconfig -l

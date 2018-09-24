@@ -1,0 +1,5 @@
+#What file has to be modified to make it permanent?
+
+/etc/hostname
+
+#The hostname saved in this file (/etc/hostname) will be preserved on system reboot.

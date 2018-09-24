@@ -1,0 +1,7 @@
+#What file contains the RSA keys of systems that are authorized to connect via SSH?
+#Run ssh-keygen on your machine, and just hit enter when asked for a password. 
+#This will generate both a private and a public key.
+
+cat ~/.ssh/id_rsa
+or
+cat ~/.ssh/authorized_keys

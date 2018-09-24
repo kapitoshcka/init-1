@@ -1,0 +1,8 @@
+#Find the provider of slash16.org
+#dig  slash16.org +short and then use command 'whois' on any address.
+
+#dig - DNS lookup utility
+#+short Provide a terse answer. 
+#The default is to print the answer in a verbose form.
+
+#OrgName:   Amazon Technologies Inc.

@@ -1,0 +1,8 @@
+#Write a script which displays only the login, UID and Path of each entry of the /etc/passwd file.
+#The cut utility cuts out selected portions of each line (as specified by list)
+#-d Use delim as the field delimiter character instead of the tab character (:).
+#-f The list specifies fields, separated in the input by the field delimiter character.
+#tr delete character (:).
+#'\t' horizontal tab.
+
+cut -d: -f1,3,6 /etc/passwd | tr ':' '\t'

@@ -1,0 +1,10 @@
+#Find the external IP of 42.fr
+
+163.172.250.11
+163.172.250.12
+163.172.250.13
+
+#Use this -> dig +short 42.fr or traceroute 42.fr
+
+#dig - DNS lookup utility
+#+short Provide a terse answer.

@@ -1,0 +1,4 @@
+#Check that the server with the 10.51.1.253 IP address is reachable from your computer.
+#ping send ICMP ECHO_REQUEST packets to network hosts.
+
+ping 10.51.1.253

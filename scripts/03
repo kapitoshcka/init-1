@@ -1,0 +1,8 @@
+#Write a script which displays the list of files from the folder
+#given as parameter, sorted by size.
+#l - list derictory contents
+#-l use a long listing format
+#-s sort by file size, largest first
+#$1 are positional parameter (first parameter here, folder to check).
+
+ls -lS $1

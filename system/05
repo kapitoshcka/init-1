@@ -1,0 +1,10 @@
+#Name the command that determines the state of the SSH service.
+
+ps -ef |grep "sshd"
+
+#ps -- process status
+#-e Display information about other users' processes, including those
+#without controlling terminals.
+#-f Display the uid, pid, parent pid, recent CPU usage, process start
+#time, controlling tty, elapsed CPU usage, and the associated command.
+#grep take a row with "sshd"

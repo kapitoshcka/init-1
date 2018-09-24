@@ -1,0 +1,5 @@
+#Find the command that kills the background command’s process
+#kill - terminate or signal a process
+#$! expands to the PID of the last process executed in the background.
+
+kill $!

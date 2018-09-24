@@ -1,0 +1,16 @@
+#!/bin/bash
+#Write a script which monitors the modifications made to the /etc/crontab file 
+#and sends an e-mail to root if the file is modified. 
+#Create a scheduled task to run this script everyday at midnight.
+#s2 hash sum before modified , m2 hash sum of etc/crontab
+#We need to add 0 0 * * * /path/to/script/04 to crontab (crontab -e)
+#To list task in crontab -> crontab -l
+#usr/bin/./mail - > my mail is here.
+
+s1="$(md5sum /etc/crontab)"
+s2="8f111d100ea459f68d333d63a8ef2205"
+
+if [ "$s1" != "$s2" ] ; then
+	echo "/etc/crontab modified" | mail -s "/etc/crontab modified" root
+	exit 1
+fi

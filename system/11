@@ -1,0 +1,6 @@
+#Name the command that displays the available space left and used on the system.
+#In an humanly understandable way
+#df - display free disk space
+#-H "Human-readable" output
+
+df -H

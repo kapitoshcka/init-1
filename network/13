@@ -1,0 +1,14 @@
+#Use the Reverse DNS to find out the name of the server linked to the 10.51.1.81 IP address
+
+Server:		10.51.1.253
+Address:	10.51.1.253#53
+
+81.1.51.10.in-addr.arpa	name = dpm-master.42.us.org.
+
+#nslookup 10.51.1.81 or dig -x 10.51.1.81 +short
+
+#dig - DNS lookup utility
+
+#-x Reverse lookups -- mapping addresses to names -- are simplified by the -x option.
+#+short Provide a terse answer.
+#nslookup is used to query Internet domain name servers.
